@@ -11,13 +11,13 @@ inputBox.onkeyup = (e)=>{
 
     if (e.key === 'Enter'){
       if(userData){
-        window.open(`https://ghenriqb.github.io/doramas_drive/${userData}`, '_self')
+        window.open(`https://ghenriqb.github.io/dorae_drive/${userData}`, '_self')
       }
     }
 
     if(userData){
         icon.onclick = ()=>{
-            webLink = `https://ghenriqb.github.io/doramas_drive/${userData}`;
+            webLink = `https://ghenriqb.github.io/dorae_drive/${userData}`;
             linkTag.setAttribute("href", webLink);
             linkTag.click();
         }
@@ -49,7 +49,7 @@ function select(element){
     let selectData = element.textContent;
     inputBox.value = selectData;
     icon.onclick = ()=>{
-        webLink = `https://ghenriqb.github.io/doramas_drive/${selectData}`;
+        webLink = `https://ghenriqb.github.io/dorae_drive/${selectData}`;
         linkTag.setAttribute("href", webLink);
         linkTag.click();
     }
