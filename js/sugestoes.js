@@ -25,5 +25,6 @@ let suggestions = [
   "Just Friends",
   "Ai no Kotodama",
   "Boko mo Aitsu mo Shinrodesu",
-  "Semantic Error - The Movie"
+  "Semantic Error - The Movie",
+  "Long Time No See"
 ];
